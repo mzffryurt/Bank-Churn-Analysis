@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__executeCode",
+      "Bash(python phase1_data_overview.py)",
+      "Bash(pip install *)",
+      "Bash(python phase2_univariate_analysis.py)",
+      "Bash(python phase3_bivariate_analysis.py)",
+      "Bash(python phase4_multivariate_analysis.py)",
+      "Bash(python phase5_data_quality_analysis.py)",
+      "Bash(python phase6_insight_generation.py)",
+      "Bash(python phase7_model_readiness.py)",
+      "Bash(Sort-Object Name)",
+      "Bash(python -c ' *)",
+      "Bash(python scripts/data_preparation.py)",
+      "Bash(pip list *)",
+      "Bash(python *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(python \"C:\\\\Users\\\\sence\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"corporate analytics dashboard fintech professional minimalism\" --design-system -p \"Churn Analytics Dashboard\")",
+      "PowerShell(python \"C:\\\\Users\\\\sence\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"data dense dashboard KPI cards shadow typography\" --domain style -n 3)",
+      "PowerShell(python \"C:\\\\Users\\\\sence\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"Inter professional corporate sans-serif analytics\" --domain typography -n 3)",
+      "PowerShell(python -c \"import ast; ast.parse\\(open\\('C:/Users/sence/OneDrive/Desktop/churn-analysis/app/app.py', encoding='utf-8'\\).read\\(\\)\\); print\\('SYNTAX OK'\\)\")",
+      "Bash(streamlit run *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8501)",
+      "Bash(curl -s -o /dev/null -w \"Health: HTTP %{http_code}\\\\n\" http://localhost:8501/_stcore/health)",
+      "Bash(echo \"EXIT_CODE=$?\")",
+      "Bash(awk '{print $6, $7, $NF}')"
+    ]
+  }
+}
